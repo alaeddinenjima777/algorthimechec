@@ -1,0 +1,12 @@
+ecrire (e);
+lire (e);
+i:=0;
+v:=0;
+
+pour i de 1 a length(e)
+si (e[i] =(""))
+     ecrire ( 'la phrase verifier')
+      sinon
+ si ( e[i] dans ('A','Z'))
+v:= v+1;
+i:=i+1;
